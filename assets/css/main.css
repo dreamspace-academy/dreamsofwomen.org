@@ -518,8 +518,12 @@ a.cart-btn {
   margin-bottom: 80px;
 }
 
-.breadcrumb-bg {
+.muse-breadcrumb-bg {
   background-image: url(../img/muse-bg.jpg);
+}
+
+.team-breadcrumb-bg {
+  background-image: url(../img/team-bg.jpg);
 }
 
 .breadcrumb-text p {
@@ -2301,6 +2305,39 @@ ul.social-link-team li a {
   margin: 5px;
 }
 
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border-color: transparent;
+}
+
+.aqua-gradient {
+  background: rgb(33, 0, 71);
+  background: linear-gradient(
+    135deg,
+    rgba(33, 0, 71, 1) 0%,
+    rgba(189, 7, 170, 1) 68%,
+    rgba(197, 0, 250, 1) 100%
+  );
+}
+
+.testimonial-card .avatar {
+  width: 150px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.testimonial-card .linkedin {
+  display: flex;
+  background: white;
+  flex-direction: row;
+  /* align-content: center; */
+  justify-content: center;
+}
 /* -----------------------------------------------------------------------------
 
 # Contact Page Styles
