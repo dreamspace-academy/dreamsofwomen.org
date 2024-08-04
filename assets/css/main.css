@@ -2882,3 +2882,21 @@ a.video-play-btn-1 {
   left: 50%;
   margin-left: -45px;
 }
+
+.language-select-container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.language-icon {
+  color: white;
+  font-size: 1.8rem;
+  margin-right: 5px;
+}
+.trans-content {
+  display: none;
+}
+.trans-content.active {
+  display: block;
+}
